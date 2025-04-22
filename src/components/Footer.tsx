@@ -1,4 +1,3 @@
-import '../styles/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import '../styles/footer.css';
@@ -7,7 +6,9 @@ export default function Footer() {
   return (
     <footer className="footer">
         <div className='container'>
-            <p>&copy; 2025 Tri Bui</p>
+            <div className='footer-text'>
+                &copy; 2025 Tri Bui. All rights reserved.
+            </div>
             <div className='social-icons'>
                 <a href="https://www.instagram.com/t_t_bui/" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
