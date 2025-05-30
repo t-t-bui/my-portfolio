@@ -6,6 +6,8 @@ import './App.css'
 
 import Footer from './components/Footer.tsx'
 import Header from './components/Header'
+import Home from './pages/Home.tsx'
+import Navbar from './components/Navbar.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +16,13 @@ function App() {
     <>
       <div className="App">
         <Header />
+        <Navbar />
+
+        <main className="main">
+          <div className='container'>
+            <Home />
+          </div>
+        </main>
 
         <div className="main container">
           <div>
