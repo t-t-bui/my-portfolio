@@ -6,7 +6,7 @@ const Home: React.FC = () => {
             <header style={{ marginBottom: '2rem' }}>
                 <h1 style={{ fontSize: '3rem', color: '#333' }}>Welcome to My Portfolio</h1>
                 <p style={{ fontSize: '1.2rem', color: '#555' }}>
-                    Hi, I'm Tri, a passionate Development and Cybersecurity.
+                    Hi, I'm Tri, a passionate Developer and Cybersecurity enthusiast.
                 </p>
             </header>
             <section style={{ marginBottom: '2rem' }}>
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
                 <p style={{ fontSize: '1rem', color: '#555' }}>
                     Feel free to reach out to me at{' '}
                     <a href="mailto:tri_bui@hotmail.com" style={{ color: '#007BFF' }}>
-                    tri_bui@hotmail.com
+                    tbui931958@gmail.com
                     </a>
                 </p>
             </section>
