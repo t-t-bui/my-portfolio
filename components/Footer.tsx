@@ -4,7 +4,7 @@ import '../styles/footer.css';
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer text-white px-6 py-4 w-full">
         <div className='container'>
             <div className='footer-text'>
                 &copy; 2025 Tri Bui. All rights reserved.
