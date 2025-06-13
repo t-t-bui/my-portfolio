@@ -7,7 +7,6 @@ import './App.css'
 import Footer from './components/Footer.tsx'
 import Header from './components/Header'
 import Home from './pages/Home.tsx'
-import Navbar from './components/Navbar.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,9 +14,8 @@ function App() {
   return (
     <>
       <div className="App">
-        <div className="flex flex-col h-screen">
+        <div className="flex flex-col h-screen bg-image-custom">
           <Header />
-          <Navbar />
 
           <main className="main flex-grow">
             <div className='container'>
@@ -48,9 +46,7 @@ function App() {
               </div>*/}
             </div>
           </main>
-
-
-          
+         
           <Footer />
         </div>
       </div>
